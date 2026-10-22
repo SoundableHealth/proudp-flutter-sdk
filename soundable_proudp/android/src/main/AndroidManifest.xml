@@ -1,0 +1,3 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- INTERNET, ACCESS_NETWORK_STATE and RECORD_AUDIO are declared by io.github.soundablehealth:sdk -->
+</manifest>

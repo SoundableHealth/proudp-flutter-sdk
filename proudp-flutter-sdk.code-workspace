@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Recorder_SDK/SoundableProudpLib"
+		},
+		{
+			"path": "../Recorder_SDK/proudp-android-sdk-sample"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,27 @@
+name: soundable_proudp
+description: "Soundable Health proudP SDK for Flutter. Records voiding sound, uploads it to the Soundable Health server and returns the analysis result."
+version: 1.0.0
+homepage: https://github.com/SoundableHealth/proudp-flutter-sdk
+publish_to: 'none'
+
+environment:
+  sdk: ^3.13.5
+  flutter: '>=3.47.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: health.soundable.soundable_proudp
+        pluginClass: SoundableProudpPlugin
+      ios:
+        pluginClass: SoundableProudpPlugin
